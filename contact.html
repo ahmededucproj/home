@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>اتصل بنا</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0px;
+           background-image: url('https://images.app.goo.gl/xdRkoZJRXiMYR2JU9');
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+        }
+
+        label, input, textarea {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 8px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color: #4CAF50;
+            
+            padding: 10px 15px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+       
+
+        header{
+            width: 100%;
+            height: 70px;
+            border: 25px;
+            background-color:white;
+            box-shadow: 0px 0px 12px black;
+        }
+        header button{
+            margin: 10px;
+            width: 140px;
+            padding: 10px;
+            border: none;
+            background:none;
+            outline: none;
+            font-size: 18px;
+            box-shadow: opx 0px whitesmoke;
+            font-family: 'Tajawal', sans-serif;
+            font-weight: bold;
+            box-shadow: 0px 0px silver;
+
+        }
+        header button:hover{
+            color: #067890;;
+
+        }
+        header img{
+            margin-top:2px;
+            width: 100px;
+            height: 70px;
+            float: left;
+        }
+
+        .social-buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .social-buttons a {
+            margin: 0 10px;
+            text-decoration: none;
+            color: #fff;
+            padding: 10px 20px;
+            border-radius: 5px;
+        }
+
+        .facebook {
+            background-color: #1877f2;
+        }
+
+        .twitter {
+            background-color: #1da1f2;
+        }
+
+        .instagram {
+            background-color: #c32aa3;
+        }
+
+    </style>
+</head>
+<body>
+
+
+<header>
+        <div>
+            <img src="images.jfif" alt="لوجو" >
+        </div>
+        <center>
+            <div>
+                <button onclick="location.href='who_are_we.html';">من نحن</button>
+                <button onclick="location.href='contact.html';">اتصل بنا</button>
+                <button onclick="location.href='Numerical_systems.html';">تحويل بين الانظمة العددية</button>
+                <button onclick="location.href='content.html';">شرح الانظمة العددية</button>
+                <button onclick="location.href='saber.html';">الرئيسية</button>
+            </div>
+        </center>
+    </header>
+<center>
+
+    <h1>اتصل بنا</h1>
+    <center/>
+
+    <form action="mailto:your_email_address" method="post">
+        <label for="name">الاسم:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">البريد الإلكتروني:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">رسالتك:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">إرسال</button>
+
+    </form>
+
+
+    <div class="social-buttons">
+        <a href="https://www.facebook.com/profile.php?id=100018119499377" target="_blank" class="facebook">Facebook</a>
+        <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fsaberabdlnafa" target="_blank" class="twitter">Twitter</a>
+        <a href="https://www.instagram.com/saber_nafa_saber/?igshid=OGY3MTU3OGY1Mw%3D%3D" target="_blank" class="instagram">Instagram</a>
+    </div>
+
+
+</body>
+</html>
